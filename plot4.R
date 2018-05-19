@@ -12,8 +12,8 @@ png("plot4.png")
 
 par(mfcol = c(2,2))
 
-# Top left plot (same as plot2)
-plot(data$datetime, data$Global_active_power, xlab = "", ylab = "Global Active Power (kilowatts)", type = "l")
+# Top left plot (basically the same as plot2)
+plot(data$datetime, data$Global_active_power, xlab = "", ylab = "Global Active Power", type = "l")
 
 # Bottom left plot (same as plot3)
 plot(data$datetime, data$Sub_metering_1, xlab = "", ylab = "Energy sub metering", type = "l", col = "black")
